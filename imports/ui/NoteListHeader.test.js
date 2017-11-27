@@ -11,7 +11,7 @@ import {NoteListHeader} from './NoteListHeader';
 
 if(Meteor.isClient) {
   describe('NoteListHeader', function() {
-    it('should call meterCall on click', function() {
+    it('should call meteorCall on click', function() {
       const spy = sinon.spy();
       const wrapper = mount(
         <MemoryRouter initialEntries={['/']} initialIndex={0}>

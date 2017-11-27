@@ -14,7 +14,6 @@ const unauthenticatedPages = ['/', '/signup'];
 const authenticatedPages = ['/dashboard'];
 const customHistory = createBrowserHistory();
 
-
 export const onAuthChange = (isAuthenticated) => {
   const pathname = customHistory.location.pathname;
   const isUnauthenticatedPage = unauthenticatedPages.includes(pathname);

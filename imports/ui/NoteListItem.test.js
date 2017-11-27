@@ -2,7 +2,7 @@ import {Meteor} from 'meteor/meteor';
 import React from 'react';
 import expect from 'expect';
 import {spy} from 'sinon';
-import {mount, shallow} from 'enzyme';
+import {mount} from 'enzyme';
 
 import {NoteListItem} from './NoteListItem';
 import {notes} from '../fixtures/fixtures';
